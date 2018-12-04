@@ -1,0 +1,722 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>PRCHILE-28776</Machine>
+    <WindowsUser>dcaceres</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>6a860c43-14e1-4629-ab1c-db6bdb131332</PackageIdentityName>
+    <PackageIdentityPublisher>CN=8FE1F081-56CC-49CF-904B-FA8A48AAA8E8</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\obj\x64\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\bin\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>EF4AF3F4840FD005BD0F151865EFBE839F6D467E58D6B511E8701397577ACD8F</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>200AndresViscoBonomo.FaceRecognitionUWP_1.1.5.0_x64__a4bydv17e9fnm</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>200AndresViscoBonomo.FaceRecognitionUWP_a4bydv17e9fnm!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>200AndresViscoBonomo.FaceRecognitionUWP</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=8FE1F081-56CC-49CF-904B-FA8A48AAA8E8</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.5.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\bin\x64\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-12-03T16:27:43.872</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\bin\x64\Debug\App5.exe">
+      <PackagePath>entrypoint\App5.exe</PackagePath>
+      <Modified>2018-12-03T16:27:37.641</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\colorcode.core\2.0.5\lib\netstandard1.4\ColorCode.Core.dll">
+      <PackagePath>ColorCode.Core.dll</PackagePath>
+      <Modified>2018-05-17T14:55:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\colorcode.uwp\2.0.5\lib\uap10.0\ColorCode.UWP.dll">
+      <PackagePath>ColorCode.UWP.dll</PackagePath>
+      <Modified>2018-05-17T14:55:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.appcenter\1.9.0\lib\uap10.0\Microsoft.AppCenter.dll">
+      <PackagePath>Microsoft.AppCenter.dll</PackagePath>
+      <Modified>2018-08-25T01:43:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.appcenter.analytics\1.9.0\lib\uap10.0\Microsoft.AppCenter.Analytics.dll">
+      <PackagePath>Microsoft.AppCenter.Analytics.dll</PackagePath>
+      <Modified>2018-08-25T01:47:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.appcenter.push\1.9.0\lib\uap10.0\Microsoft.AppCenter.Push.dll">
+      <PackagePath>Microsoft.AppCenter.Push.dll</PackagePath>
+      <Modified>2018-08-25T01:46:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.azure.cognitiveservices.vision.customvision.prediction\0.10.0-preview\lib\netstandard1.4\Microsoft.Azure.CognitiveServices.Vision.CustomVision.Prediction.dll">
+      <PackagePath>Microsoft.Azure.CognitiveServices.Vision.CustomVision.Prediction.dll</PackagePath>
+      <Modified>2018-05-08T01:10:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.azure.cognitiveservices.vision.customvision.training\0.12.0-preview\lib\netstandard1.4\Microsoft.Azure.CognitiveServices.Vision.CustomVision.Training.dll">
+      <PackagePath>Microsoft.Azure.CognitiveServices.Vision.CustomVision.Training.dll</PackagePath>
+      <Modified>2018-07-20T19:57:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.identity.client\1.1.2-preview0008\lib\win81\Microsoft.Identity.Client.dll">
+      <PackagePath>Microsoft.Identity.Client.dll</PackagePath>
+      <Modified>2018-02-02T21:02:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.ml\0.7.0\runtimes\win-x64\native\FactorizationMachineNative.dll">
+      <PackagePath>FactorizationMachineNative.dll</PackagePath>
+      <Modified>2018-11-06T23:32:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.ml\0.7.0\runtimes\win-x64\native\FastTreeNative.dll">
+      <PackagePath>FastTreeNative.dll</PackagePath>
+      <Modified>2018-11-06T23:32:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.ml\0.7.0\runtimes\win-x64\native\LdaNative.dll">
+      <PackagePath>LdaNative.dll</PackagePath>
+      <Modified>2018-11-06T23:32:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.ml\0.7.0\lib\netstandard2.0\Microsoft.ML.Api.dll">
+      <PackagePath>Microsoft.ML.Api.dll</PackagePath>
+      <Modified>2018-11-06T23:32:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.ml\0.7.0\lib\netstandard2.0\Microsoft.ML.Core.dll">
+      <PackagePath>Microsoft.ML.Core.dll</PackagePath>
+      <Modified>2018-11-06T23:32:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.ml\0.7.0\lib\netstandard2.0\Microsoft.ML.Data.dll">
+      <PackagePath>Microsoft.ML.Data.dll</PackagePath>
+      <Modified>2018-11-06T23:32:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.ml\0.7.0\lib\netstandard2.0\Microsoft.ML.Ensemble.dll">
+      <PackagePath>Microsoft.ML.Ensemble.dll</PackagePath>
+      <Modified>2018-11-06T23:32:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.ml\0.7.0\lib\netstandard2.0\Microsoft.ML.FastTree.dll">
+      <PackagePath>Microsoft.ML.FastTree.dll</PackagePath>
+      <Modified>2018-11-06T23:32:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.ml\0.7.0\lib\netstandard2.0\Microsoft.ML.KMeansClustering.dll">
+      <PackagePath>Microsoft.ML.KMeansClustering.dll</PackagePath>
+      <Modified>2018-11-06T23:32:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.ml\0.7.0\lib\netstandard2.0\Microsoft.ML.Legacy.dll">
+      <PackagePath>Microsoft.ML.Legacy.dll</PackagePath>
+      <Modified>2018-11-06T23:32:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.ml\0.7.0\lib\netstandard2.0\Microsoft.ML.Maml.dll">
+      <PackagePath>Microsoft.ML.Maml.dll</PackagePath>
+      <Modified>2018-11-06T23:32:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.ml\0.7.0\lib\netstandard2.0\Microsoft.ML.PCA.dll">
+      <PackagePath>Microsoft.ML.PCA.dll</PackagePath>
+      <Modified>2018-11-06T23:32:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.ml\0.7.0\lib\netstandard2.0\Microsoft.ML.PipelineInference.dll">
+      <PackagePath>Microsoft.ML.PipelineInference.dll</PackagePath>
+      <Modified>2018-11-06T23:32:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.ml\0.7.0\lib\netstandard2.0\Microsoft.ML.ResultProcessor.dll">
+      <PackagePath>Microsoft.ML.ResultProcessor.dll</PackagePath>
+      <Modified>2018-11-06T23:32:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.ml\0.7.0\lib\netstandard2.0\Microsoft.ML.SamplesUtils.dll">
+      <PackagePath>Microsoft.ML.SamplesUtils.dll</PackagePath>
+      <Modified>2018-11-06T23:32:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.ml\0.7.0\lib\netstandard2.0\Microsoft.ML.StandardLearners.dll">
+      <PackagePath>Microsoft.ML.StandardLearners.dll</PackagePath>
+      <Modified>2018-11-06T23:32:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.ml\0.7.0\lib\netstandard2.0\Microsoft.ML.Sweeper.dll">
+      <PackagePath>Microsoft.ML.Sweeper.dll</PackagePath>
+      <Modified>2018-11-06T23:32:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.ml\0.7.0\lib\netstandard2.0\Microsoft.ML.Transforms.dll">
+      <PackagePath>Microsoft.ML.Transforms.dll</PackagePath>
+      <Modified>2018-11-06T23:32:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.ml.cpumath\0.7.0\runtimes\win-x64\native\CpuMathNative.dll">
+      <PackagePath>CpuMathNative.dll</PackagePath>
+      <Modified>2018-11-06T23:32:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.ml.cpumath\0.7.0\lib\netstandard2.0\Microsoft.ML.CpuMath.dll">
+      <PackagePath>Microsoft.ML.CpuMath.dll</PackagePath>
+      <Modified>2018-11-06T23:32:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.projectoxford.common\2.1.1\lib\netstandard1.1\Microsoft.ProjectOxford.Common.dll">
+      <PackagePath>Microsoft.ProjectOxford.Common.dll</PackagePath>
+      <Modified>2018-05-07T21:25:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.projectoxford.face\1.4.0\lib\portable-net45+wp80+win8+wpa81+aspnetcore50\Microsoft.ProjectOxford.Face.dll">
+      <PackagePath>Microsoft.ProjectOxford.Face.dll</PackagePath>
+      <Modified>2018-02-28T09:48:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.rest.clientruntime\2.3.12\lib\netstandard1.4\Microsoft.Rest.ClientRuntime.dll">
+      <PackagePath>Microsoft.Rest.ClientRuntime.dll</PackagePath>
+      <Modified>2018-07-19T21:53:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.rest.clientruntime.azure\3.3.13\lib\netstandard1.4\Microsoft.Rest.ClientRuntime.Azure.dll">
+      <PackagePath>Microsoft.Rest.ClientRuntime.Azure.dll</PackagePath>
+      <Modified>2018-07-20T01:11:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit\4.0.0\lib\netstandard1.4\Microsoft.Toolkit.dll">
+      <PackagePath>Microsoft.Toolkit.dll</PackagePath>
+      <Modified>2018-08-08T02:23:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.parsers\4.0.0\lib\netstandard1.4\Microsoft.Toolkit.Parsers.dll">
+      <PackagePath>Microsoft.Toolkit.Parsers.dll</PackagePath>
+      <Modified>2018-08-08T02:23:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.dll</PackagePath>
+      <Modified>2018-08-08T02:23:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.notifications\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.Notifications.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.Notifications.dll</PackagePath>
+      <Modified>2018-08-08T02:23:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.dll</PackagePath>
+      <Modified>2018-08-08T02:23:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.animations\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Animations.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Animations.dll</PackagePath>
+      <Modified>2018-08-08T02:23:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.dll</PackagePath>
+      <Modified>2018-08-08T02:23:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\1.1.0\lib\uap10.0\Microsoft.Xaml.Interactions.dll">
+      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+      <Modified>2016-02-22T16:59:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\1.1.0\lib\uap10.0\Microsoft.Xaml.Interactivity.dll">
+      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+      <Modified>2016-02-22T16:59:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\mmaitre.mediacaptureextensions\1.0.0\lib\portable-win81+wpa81\MediaCaptureExtensions.dll">
+      <PackagePath>MediaCaptureExtensions.dll</PackagePath>
+      <Modified>2015-02-18T00:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\newtonsoft.json\11.0.2\lib\netstandard2.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2018-03-24T20:44:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\robmikh.compositionsurfacefactory\0.7.3\runtimes\win10-x64\native\Robmikh.CompositionSurfaceFactory.dll">
+      <PackagePath>Robmikh.CompositionSurfaceFactory.dll</PackagePath>
+      <Modified>2017-09-27T22:20:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.2\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2018-10-31T14:01:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\sqlite-net-pcl\1.3.1\lib\netstandard1.1\SQLite-net.dll">
+      <PackagePath>SQLite-net.dll</PackagePath>
+      <Modified>2017-01-16T15:56:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\sqlitepclraw.bundle_green\1.1.2\lib\uap10.0\SQLitePCLRaw.batteries_green.dll">
+      <PackagePath>SQLitePCLRaw.batteries_green.dll</PackagePath>
+      <Modified>2017-01-04T12:54:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\sqlitepclraw.bundle_green\1.1.2\lib\uap10.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+      <Modified>2017-01-04T12:54:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\sqlitepclraw.core\1.1.2\lib\uap10.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+      <Modified>2017-01-04T12:54:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\sqlitepclraw.lib.e_sqlite3.v140\1.1.2\runtimes\win10-x64\native\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+      <Modified>2017-01-04T12:55:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\sqlitepclraw.provider.e_sqlite3.uwp10\1.1.2\lib\uap10.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
+      <Modified>2017-01-04T12:54:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\system.codedom\4.4.0\lib\netstandard2.0\System.CodeDom.dll">
+      <PackagePath>System.CodeDom.dll</PackagePath>
+      <Modified>2017-07-19T14:01:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\win2d.uwp\1.21.0\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
+      <Modified>2017-06-26T07:01:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\robmikh.compositionsurfacefactory\0.7.3\lib\uap10.0\Robmikh.CompositionSurfaceFactory.winmd">
+      <PackagePath>Robmikh.CompositionSurfaceFactory.winmd</PackagePath>
+      <Modified>2017-09-27T22:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\win2d.uwp\1.21.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
+      <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
+      <Modified>2017-06-26T07:01:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2018-10-23T04:33:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UAP\v0.8.0.0\ExtensionSDKs\SQLite.UWP.2015\3.26.0\Redist\Debug\x64\sqlite3.dll">
+      <PackagePath>sqlite3.dll</PackagePath>
+      <Modified>2018-12-02T11:10:19.219</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.17763.0\Redist\Debug\x64\ucrtbased.dll">
+      <PackagePath>ucrtbased.dll</PackagePath>
+      <Modified>2018-10-23T05:10:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\Assets\24.png">
+      <PackagePath>Assets\24.png</PackagePath>
+      <Modified>2018-10-19T17:14:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\Assets\300x300.png">
+      <PackagePath>Assets\300x300.png</PackagePath>
+      <Modified>2018-10-19T17:14:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\Assets\310x150.png">
+      <PackagePath>Assets\310x150.png</PackagePath>
+      <Modified>2018-10-19T17:14:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\Assets\44x44.png">
+      <PackagePath>Assets\44x44.png</PackagePath>
+      <Modified>2018-10-19T17:14:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\Assets\620x300.png">
+      <PackagePath>Assets\620x300.png</PackagePath>
+      <Modified>2018-10-19T17:14:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\Assets\88x88.png">
+      <PackagePath>Assets\88x88.png</PackagePath>
+      <Modified>2018-10-19T17:14:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\Assets\Icono1240.png">
+      <PackagePath>Assets\Icono1240.png</PackagePath>
+      <Modified>2018-10-19T17:14:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\Assets\Icono2048.png">
+      <PackagePath>Assets\Icono2048.png</PackagePath>
+      <Modified>2018-10-19T17:14:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\Assets\Icono930.png">
+      <PackagePath>Assets\Icono930.png</PackagePath>
+      <Modified>2018-10-19T17:14:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-19T17:14:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-19T17:14:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-19T17:14:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\Assets\unicornio.png">
+      <PackagePath>Assets\unicornio.png</PackagePath>
+      <Modified>2018-10-19T17:14:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-19T17:14:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2018-10-19T17:14:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-19T17:14:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-19T17:14:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-19T17:14:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-19T17:14:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-19T17:14:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-19T17:14:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\Assets\Icono142.jpg">
+      <PackagePath>Assets\Icono142.jpg</PackagePath>
+      <Modified>2018-10-19T17:14:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\Assets\Icono2048.jpg">
+      <PackagePath>Assets\Icono2048.jpg</PackagePath>
+      <Modified>2018-10-19T17:14:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\Assets\Icono284.jpg">
+      <PackagePath>Assets\Icono284.jpg</PackagePath>
+      <Modified>2018-10-19T17:14:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\Assets\Square71x71Logo.scale-200.jpg">
+      <PackagePath>Assets\Square71x71Logo.scale-200.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-19T17:14:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\Assets\Square71x71Logo.scale-400.jpg">
+      <PackagePath>Assets\Square71x71Logo.scale-400.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-19T17:14:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\Assets\viscoreitano.onnx">
+      <PackagePath>Assets\viscoreitano.onnx</PackagePath>
+      <Modified>2018-10-19T17:14:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\Assets\familia.onnx">
+      <PackagePath>Assets\familia.onnx</PackagePath>
+      <Modified>2018-11-29T12:41:15.896</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2018-10-19T17:14:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\bin\x64\Debug\App5.xr.xml">
+      <PackagePath>App5.xr.xml</PackagePath>
+      <Modified>2018-11-24T16:02:43.847</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\bin\x64\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2018-12-03T16:27:36.335</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\bin\x64\Debug\Styles\Styles.xbf">
+      <PackagePath>Styles\Styles.xbf</PackagePath>
+      <Modified>2018-12-03T16:27:36.332</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\bin\x64\Debug\Altas.xbf">
+      <PackagePath>Altas.xbf</PackagePath>
+      <Modified>2018-12-03T16:27:36.339</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\bin\x64\Debug\HomePage.xbf">
+      <PackagePath>HomePage.xbf</PackagePath>
+      <Modified>2018-12-03T16:27:36.343</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\bin\x64\Debug\Inicio.xbf">
+      <PackagePath>Inicio.xbf</PackagePath>
+      <Modified>2018-12-03T16:27:36.347</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\bin\x64\Debug\MainNueva.xbf">
+      <PackagePath>MainNueva.xbf</PackagePath>
+      <Modified>2018-12-03T16:27:36.349</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\bin\x64\Debug\MainPageVideoSource.xbf">
+      <PackagePath>MainPageVideoSource.xbf</PackagePath>
+      <Modified>2018-12-03T16:27:36.352</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\bin\x64\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2018-12-03T16:27:36.355</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\bin\x64\Debug\Settings.xbf">
+      <PackagePath>Settings.xbf</PackagePath>
+      <Modified>2018-12-03T16:27:36.359</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2018-10-23T03:44:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI\Microsoft.Toolkit.Uwp.UI.xr.xml">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI\Microsoft.Toolkit.Uwp.UI.xr.xml</PackagePath>
+      <Modified>2018-08-08T02:19:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI\Extensions\NavigationView\NavigationView.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI\Extensions\NavigationView\NavigationView.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI\Extensions\NavigationView\Styles\VSCodeActivityBarStyle.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI\Extensions\NavigationView\Styles\VSCodeActivityBarStyle.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\Microsoft.Toolkit.Uwp.UI.Controls.xr.xml">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Microsoft.Toolkit.Uwp.UI.Controls.xr.xml</PackagePath>
+      <Modified>2018-08-08T02:19:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\BladeView\BladeView.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\BladeView\BladeView.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\CameraPreview\CameraPreview.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\CameraPreview\CameraPreview.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\Carousel\Carousel.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Carousel\Carousel.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\DropShadowPanel\DropShadowPanel.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\DropShadowPanel\DropShadowPanel.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\Expander\Expander.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Expander\Expander.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\GridSplitter\GridSplitter.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\GridSplitter\GridSplitter.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\HamburgerMenu\HamburgerMenu.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\HamburgerMenu\HamburgerMenu.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\HamburgerMenu\HamburgerMenuNavViewTemplate.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\HamburgerMenu\HamburgerMenuNavViewTemplate.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\HamburgerMenu\HamburgerMenuTemplate.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\HamburgerMenu\HamburgerMenuTemplate.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\HeaderedContentControl\HeaderedContentControl.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\HeaderedContentControl\HeaderedContentControl.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\HeaderedItemsControl\HeaderedItemsControl.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\HeaderedItemsControl\HeaderedItemsControl.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\HeaderedTextBlock\HeaderedTextBlock.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\HeaderedTextBlock\HeaderedTextBlock.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\ImageEx\ImageEx.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\ImageEx\ImageEx.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\ImageEx\RoundImageEx.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\ImageEx\RoundImageEx.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\InAppNotification.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\InAppNotification.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\Styles\MSEdgeNotificationStyle.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\Styles\MSEdgeNotificationStyle.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\Styles\VSCodeNotificationStyle.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\Styles\VSCodeNotificationStyle.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\InfiniteCanvas\InfiniteCanvas.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\InfiniteCanvas\InfiniteCanvas.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\LayoutTransformControl\LayoutTransformControl.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\LayoutTransformControl\LayoutTransformControl.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\Loading\Loading.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Loading\Loading.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\MarkdownTextBlock\MarkdownTextBlock.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\MarkdownTextBlock\MarkdownTextBlock.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\MasterDetailsView\MasterDetailsView.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\MasterDetailsView\MasterDetailsView.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\Menu\Menu.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Menu\Menu.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\OrbitView\OrbitView.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\OrbitView\OrbitView.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\PullToRefreshListView\PullToRefreshListView.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\PullToRefreshListView\PullToRefreshListView.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\PullToRefreshListView\PullToRefreshListViewRefreshContainerTemplate.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\PullToRefreshListView\PullToRefreshListViewRefreshContainerTemplate.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\PullToRefreshListView\PullToRefreshListViewTemplate.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\PullToRefreshListView\PullToRefreshListViewTemplate.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\RadialGauge\RadialGauge.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\RadialGauge\RadialGauge.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\RadialProgressBar\RadialProgressBar.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\RadialProgressBar\RadialProgressBar.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\RangeSelector\RangeSelector.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\RangeSelector\RangeSelector.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\RotatorTile\RotatorTile.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\RotatorTile\RotatorTile.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\ScrollHeader\ScrollHeader.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\ScrollHeader\ScrollHeader.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\SlidableListItem\SlidableListItem.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\SlidableListItem\SlidableListItem.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\SlidableListItem\SlidableListItemSwipeControlTemplate.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\SlidableListItem\SlidableListItemSwipeControlTemplate.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\TextToolbar.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\TextToolbar.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\Symbols\Symbols.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\Symbols\Symbols.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\ToolbarItems\ToolbarButton.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\ToolbarItems\ToolbarButton.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\ToolbarItems\ToolbarSeparator.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\ToolbarItems\ToolbarSeparator.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\Themes\Generic.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Themes\Generic.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dcaceres\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\TileControl\TileControl.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\TileControl\TileControl.xbf</PackagePath>
+      <Modified>2018-08-08T02:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\bin\x64\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2018-12-03T16:13:06.400</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\bin\x64\Debug\Core\App5.exe">
+      <PackagePath>App5.exe</PackagePath>
+      <Modified>2018-12-03T16:27:43.849</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\dcaceres\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.2\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.26926.4</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.26926.4, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\dcaceres\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.2\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\dcaceres\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.2\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.26926.4</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.26926.4, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\dcaceres\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.2\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\dcaceres\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.2\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.26926.4</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.26926.4, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\dcaceres\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.2\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\dcaceres\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.2\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.26926.4</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.26926.4, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\dcaceres\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.2\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\dcaceres\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.2\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.26926.4</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.26926.4, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\dcaceres\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.2\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\dcaceres\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.2\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.26926.4</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.26926.4, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\dcaceres\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.2\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27023.1</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27023.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27023.1</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27023.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27023.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27023.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27023.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27023.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

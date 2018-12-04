@@ -1,0 +1,1 @@
+C:\Lab_Api_Face\ANVI6FaceRecognitionONNXPub-master\App4\App4.csproj;x64
